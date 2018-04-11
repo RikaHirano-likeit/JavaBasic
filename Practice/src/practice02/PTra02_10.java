@@ -2,7 +2,7 @@ package practice02;
 /*
  * PTra02_10.java
  *   作成	LIKEIT	2017
- *------------------------------------------------------------
+ *-----------------------moneyInHand-------------------------------------
  * Copyright(c) Rhizome Inc. All Rights Reserved.
  */
 
@@ -21,6 +21,12 @@ public class PTra02_10 {
 		 * ※ 日本円には小数点がありませんので、整数の値で出力してください(少数部分は切り捨て)
 		 * ※ プログラムは何行書いても良いです
 		 */
+
+		double d= moneyInHand - ( coffee * 2 + snack ) * 1.08;
+		int i = (int)d;
+		System.out.println(i);
+
+
 
 	}
 }

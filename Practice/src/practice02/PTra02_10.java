@@ -22,7 +22,7 @@ public class PTra02_10 {
 		 * ※ プログラムは何行書いても良いです
 		 */
 
-		double d= moneyInHand - ( coffee * 2 + snack ) * 1.08;
+		double d = moneyInHand - ( coffee * 2 + snack ) * 1.08;
 		int i = (int)d;
 		System.out.println(i);
 

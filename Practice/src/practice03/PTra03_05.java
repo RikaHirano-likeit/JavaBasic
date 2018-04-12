@@ -34,13 +34,13 @@ public class PTra03_05 {
 		 * ※ プログラムは何行書いても良いです
 		 */
 
-		if(num>75) {
+		if(num>74&&num<101) {
 			System.out.println("雨が降る確率が高いです");
-		}else if(num<30||num>74) {
+		}else if(num>29&&num<75) {
 			System.out.println("雨が振るかもしれないです");
-		}else if(num>30) {
+		}else if(num<30) {
 			System.out.println("雨はまず降らないでしょう");
-		}else if(num>100&&num<0) {
+		}else if(num>100||num<0) {
 			System.out.println("不正な値が入力されました");
 
 		}

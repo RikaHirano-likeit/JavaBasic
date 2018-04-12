@@ -15,9 +15,8 @@ public class PTra03_02 {
 		// ★ 変数numの値が65以上の場合は「合格です」と出力し、それ以外であれば「不合格です」を出力してください
 		// ※プログラムは何行書いても良いです
 
-		if(num>65) {
+		if(num>64) {
 			System.out.println("合格です");
-
 		}else {
 			System.out.println("不合格です");
 

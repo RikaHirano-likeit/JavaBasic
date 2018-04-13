@@ -5,7 +5,6 @@ package practice04;
  *------------------------------------------------------------
  * Copyright(c) Rhizome Inc. All Rights Reserved.
  */
-
 public class PTra04_02 {
 	public static void main(String[] args) {
 		// 通称「FizzBuzz問題」です
@@ -16,7 +15,7 @@ public class PTra04_02 {
 		while (index<=100) {
 
 			// ★ 変数indexの値が3でも5でも割り切れる数の場合は、「FizzBuzz」と出力
-			}if(index%15==0) {
+			if(index%15==0) {
 				System.out.println("FizzBuzz");
 
 			// ★ 変数indexの値が3で割り切れ、5で割り切れない場合は、「Fizz」と出力
@@ -30,11 +29,10 @@ public class PTra04_02 {
 			// ★ 変数indexの値が3でも5でも割り切れない場合は、変数indexの値を出力
 			}else {
 				System.out.println(index);
+			}
 
 			// ★ 変数indexに1を加算した数を、変数indexに代入する
-			index = index++;
-				System.out.println(index);
-			
+			index++;
 		}
 
 		/*
@@ -58,6 +56,8 @@ public class PTra04_02 {
 		 * ：
 		 * ：
 		 */
-
 	}
+
+
+
 }

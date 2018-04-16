@@ -69,7 +69,7 @@ public class PTra05_04 {
 			break;
 
 		}
-		}
+	}
 		}
 	}
 

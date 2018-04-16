@@ -23,7 +23,7 @@ public class PTra05_01 {
 		 *  ●numが0だった場合			->	「前の単元を復習してください」
 		 *  ●numが0～5以外だった場合	->	「正しい数値を入れてください」
 		 */
-		
+
 		switch(num) {
 		case 5:
 			System.out.println("満点");

@@ -10,7 +10,11 @@ public class PTra07_05 {
 	public static void main(String[] args) {
 
 		// ★ int型の配列arrayを宣言して、5個の領域を確保してください
-
+		int[] array = new int[5];
+			for(int i=0; i<array.length; i++) {
+				array[i] = new java.util.Random().nextInt(100001);
+			System.out.println(array[i]);
+		}
 
 		/*
 		 * ★ 下記の仕様でfor文を記述してください
@@ -28,5 +32,7 @@ public class PTra07_05 {
 
 
 		//------for end
+
+
 	}
 }

@@ -29,6 +29,10 @@ public class PTra07_01 {
 		System.out.println(array[3]);
 		System.out.println(array[4]);
 
+		/*省略ver追記
+		 * int[] array = {1,4,7,10,13};
+		 * 	System.out.println(array.length);
+		 */
 
 	}
 }

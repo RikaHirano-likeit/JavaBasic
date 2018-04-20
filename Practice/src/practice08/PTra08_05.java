@@ -33,8 +33,13 @@ public class PTra08_05 {
 
 		// ★ 変数choiceの中が、1であれば四角形の面積を算出するメソッドを、2であれば三角形の面積を算出するメソッドを呼び出してください
 
-	}
+		if(choice == 1) {
+			quadrangle(height,width);
+		}else {
+			triangle(height,width);
+		}
 
+	}
 	/*
 	 * ★ 以下の仕様でメソッドを作成してください
 	 *
@@ -44,7 +49,10 @@ public class PTra08_05 {
 	 *
 	 * 引数で渡された横の長さ(width)と縦の長さ(height)から、四角形の面積を返すメソッド
 	 */
-
+	public static double quadrangle(double width,double height) {
+		double result1 = height * width;
+		return result1;
+	}
 
 	/*
 	 * ★ 以下の仕様でメソッドを作成してください
@@ -55,5 +63,8 @@ public class PTra08_05 {
 	 *
 	 * 引数で渡された横の長さ(width)と縦の長さ(height)から、三角形の面積を返すメソッド
 	 */
-
+	public static double triangle(double width, double height){
+		double result2 = height * width * 3.14;
+	return result2;
+	}
 }

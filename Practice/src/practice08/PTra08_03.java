@@ -32,11 +32,11 @@ public class PTra08_03 {
 	 *
 	 * 引数で渡された内容が偶数ならtrue、奇数ならfalseを返すメソッド
 	 */
-	
+
 public static boolean isEvenNumber(int x) {
-	boolean result;
-	result = (x % 2 == 0); 
+	boolean result = true;
+	result = (x % 2 == 0);
 	return result;
-	
+
 	}
 }

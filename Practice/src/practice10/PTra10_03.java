@@ -36,9 +36,9 @@ public class PTra10_03 {
 		// ★ 配列にした値を、usの各フィールドに代入してください
 		// ユーザIDに該当する値が数値でなかった場合は、エラーでプログラムが止まっても良いです
 		us.userId =  Integer.parseInt(list[0]);
-		us.userNm = list[0];
-		us.mail = list[0];
-		us.password = list[0];
+		us.userNm = list[1];
+		us.mail = list[2];
+		us.password = list[3];
 
 		// ★ 変数usに格納されているインスタンスの、フィールドuserId, userNm, mail, passwordを出力してください
 		System.out.println(us.userId);
